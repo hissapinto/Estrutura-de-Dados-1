@@ -1,13 +1,13 @@
-#Lista de Exercícios 1 – Programação Java
+# Lista de Exercícios 1 – Programação Java
 
-##Objetivos
+## Objetivos
 - Treinar os fundamentos da linguagem Java (tipos primitivos, operadores, estruturas
 de decisão, estruturas de repetição, arrays, métodos).
 - Detectar similaridades com outras linguagens de programação que você já conheça.
 - Verificar dificuldades com a linguagem Java.
 - Treinar interpretação de texto.
 
-##Instruções
+## Instruções
 - As questões a seguir devem ser resolvidas usando a linguagem Java.
 - Para cada questão, escreva o código em um arquivo .java (se você resolver todas as
 questões, devem existir 8 arquivos .java).
@@ -19,7 +19,7 @@ um documento PDF, o histórico da interação (prompt + respostas).
 - Compacte todos os arquivos no formato ZIP e faça o envio pelo Moodle.
 
 
-##Questões
+## Questões
 1. Escreva um código Java que leia dois números inteiros informados pelo usuário.
 Cada número deve ser salvo em variáveis distintas, por exemplo, valor1 e valor2.
 Após ler os dois números, o código deve trocar o conteúdo das variáveis.
@@ -48,7 +48,7 @@ Inclua um código na main() que exemplifica o uso do método mulComAdicao().
 e retorna a quantidade de vogais encontradas na string.
 Inclua um código na main() que exemplifica o uso do método contarVogais().
 
-##Dicas:
+## Dicas:
 - A classe String do Java possui um método charAt(int index) que retorna um
 char na posição indicada pelo parâmetro index.
 - A classe String do Java possui um método toCharArray() que retorna o
