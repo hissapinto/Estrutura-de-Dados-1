@@ -22,6 +22,7 @@ public class Ex5 {
         int a = entrada.nextInt();
         System.out.print("Digite o segundo número: ");
         int b = entrada.nextInt();
+        entrada.close();
 
         System.out.println("O maior valor informado foi :"+max(a,b));
         System.out.print("O menor valor informado foi: "+min(a,b));
