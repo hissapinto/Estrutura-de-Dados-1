@@ -14,6 +14,7 @@ public class Ex1{
         int valor1 = entrada.nextInt();
         System.out.print("Informe o segundo número: ");
         int valor2 = entrada.nextInt();
+        entrada.close();
         int aux;
         aux = valor2;
         valor2 = valor1;

@@ -10,6 +10,7 @@ public class Ex2 {
         //Declara um scanner chamado entrada
         System.out.print("Informe uma letra: ");
         String palavra = entrada.next();
+        entrada.close();
         //Lê uma palavra ou caractere que foi botado pelo usuário
         char letra = palavra.charAt(0);
         //Pega o caractere na posição zero
