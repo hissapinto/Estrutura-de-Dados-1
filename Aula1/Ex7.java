@@ -1,3 +1,4 @@
+
 /*Escreva um método estático contarVogais() que recebe uma string como
 parâmetro e retorna a quantidade de vogais encontradas na string.
 Inclua um código na main() que exemplifica o uso do método contarVogais(). */
