@@ -29,6 +29,8 @@ class Palindromo{
     public void setTexto(String frase){
         if(frase == null || frase.isEmpty()){
             throw new IllegalArgumentException("A frase não pode ser nula ou vazia.");
+            //Como eu escrevi um exception específico, não preciso colocar o throw exception na criação do setTexto
+            // public void setTexto(string frase) throw exception <- caso a exception não fosse específico
         }
         else{
             this.texto=frase;
