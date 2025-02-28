@@ -30,7 +30,9 @@ class Palindromo{
         if(frase == null || frase.isEmpty()){
             throw new IllegalArgumentException("A frase não pode ser nula ou vazia.");
         }
-        this.texto=frase;
+        else{
+            this.texto=frase;
+        }
     }
     //Verifica se a frase é nula, se for valida ela armazena a frase no texto
 
@@ -38,11 +40,15 @@ class Palindromo{
     public boolean verificar(){
         String textoFormatado = this.texto.replaceAll(" ","").toLowerCase();
         //Tira os espaços e deixa tudo minúsculo
+        //Quando tem o this chama obrigatoriamente o "texto" que é umaa instância da classe.
+        //Se não tiver o this e eu botar uma nova varpavel chamada texto no metodo verificar ele vai chamar essa,
+        // mas se tiver o this chama o da classe
         int qtdLetras = textoFormatado.length();
         //Pega a qtd de letras
 
         //Comparação letras opostas
         for (int i=0;i<(qtdLetras/2);i++){
+            //if(texto.length() <= 1) return true; -> pra retornar true frases vazias ou com uma letra
             char letraA = textoFormatado.charAt(i);
             char letraZ = textoFormatado.charAt(qtdLetras-i-1);
             if(letraA != letraZ){
