@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Escreva uma frase: ");
         String frase = entrada.nextLine();
 
-        //Try e catch pro programa não encerrar caso haja algum erro (????)
+        //Try e catch pro programa não encerrar caso haja algum erro
         try{
             //Criando o novo obj da classe palindromo
             Palindromo novoPalindromo = new Palindromo(frase);
@@ -33,5 +33,3 @@ public class Main {
         entrada.close();
     }
 }
-
-//Estou confusa com o try e catch - perguntar pro prof.
